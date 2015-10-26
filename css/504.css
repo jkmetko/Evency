@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela|Dosis:200);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-smoothing: antialiased;
+    font-weight: normal;
+    background: #151618;
+    color: #FFF;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+p {
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 14px;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+}
+
+p + p {
+    margin-top: 1.0em;
+}
+
+a {
+    transition: color 0.2s ease-out;
+    text-decoration: none;
+    color: #FBB;
+}
+
+a:hover {
+    color: #444;
+}
+
+.contact{
+    border: 1px solid #fff;
+    padding: 10px 70px 10px 70px;
+}
+
+.overlay {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    transition: opacity 0.4s ease-out;
+    margin: -280px -180px;
+    text-align: center;
+    position: absolute;
+    height: 560px;
+    max-width: 460px;
+    left: 50%;
+    top: 50%;
+}
+
+.header {
+    margin-bottom: 80px;
+}
+
+.information {
+    margin-bottom: 60px;
+}
+
+.footer {
+    font-family: Baskerville, sans-serif;
+    font-size: 30px;
+}
+
+.footer a {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.footer .handle {
+    font-style: italic;
+}
+
+.controls {
+    display: none;
+    font-smoothing: subpixel-antialiased;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.links {
+    position: absolute;
+    list-style: none;
+    width: auto;
+    bottom: 40px;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    border-bottom: #222 1px solid;
+    border-bottom: rgba(255,255,255,0.1) 1px solid;
+}
+
+.links li a {
+    transition: opacity 0.2s ease-out;
+    font-smoothing: subpixel-antialiased;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0.25em 0;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    opacity: 0.4;
+    color: #FFF;
+}
+
+.links li a:hover {
+    opacity: 0.8;
+}
+
+.icon{
+    font-weight: normal;
+    margin: 0 10px 0 0;
+}
+
+.vignette {
+    background-image: -webkit-radial-gradient(50% 50%, ellipse, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%);
+    background-image: radial-gradient(50% 50%, ellipse, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%);
+}
+
+.noise {
+    background-image: url(../images/noise.png);
+    opacity: 0.075;
+}
+
+.hide {
+    opacity: 0;
+}
+
+#triangle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -278,7 +278,7 @@ CAROUSEL SLIDER FOR BOXES / 4 ITEMS
     
     // Add .box-carousel class to boxes div
     owlBox.owlCarousel({
-        items : 4,
+        items : 3,
         // Responsive Settings
         itemsDesktop : [1169,3],
         itemsDesktopSmall : [979,3],
@@ -286,7 +286,7 @@ CAROUSEL SLIDER FOR BOXES / 4 ITEMS
         itemsTabletSmall : false,
         itemsMobile : [560,1],
         // End Responsive Settings
-        mouseDrag : false,
+        mouseDrag : true,
         pagination : true,
         navigation : true,
         touchDrag : true,
@@ -337,6 +337,23 @@ CAROUSEL SLIDER FOR BOXES / 5 ITEMS
         navigation : false,
         touchDrag : true,
         slideSpeed : 400
+    });
+
+
+/* ==============================================
+ CAROUSEL SLIDER FOR BOXES / 5 ITEMS / SLIDESHOW
+ =============================================== */
+
+    var owlBox = $(".box-carousel.slideshow");
+
+    // Add .box-carousel class to boxes div
+    owlBox.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
     });
 
 /* ==============================================
@@ -424,7 +441,7 @@ TESTIMONIALS
         layoutMode: 'slider',
         drag: true,
         auto: true,
-        autoTimeout: 4000,
+        autoTimeout: 7000,
         autoPauseOnHover: true,
         showNavigation: false,
         showPagination: true,
